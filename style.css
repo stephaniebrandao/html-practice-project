@@ -6,52 +6,20 @@ Para títulos: Montserrat
 Para textos: Crimson Pro*/
 
 * {
-    background-color: #f2edea;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
-}
-
-.intro-eddie {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #3D0A08;
-    color: #f2edea;
-}
-
-.hi-eddie {
-    font-size: 4rem;
-    font-style: italic;
-    padding-top: 15px;
-    padding-left: 20px;
-    background-color: #3D0A08;
-    color: #f2edea;
-    margin: 0 auto;
-    flex: 1;
-    text-align: center;
-}
-
-.ortho-bot {
-    font-size: 2em;
-    background-color: #3D0A08;
-    color: #f2edea;
-    flex: 1;
-    text-align: left;
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-
-h2 span {
-    font-size: 1em;
-    background-color: #3D0A08;
-    color: #f2edea;
 }
 
 .title_mont {
     font-family: Montserrat;
 }
 
+.text_crim {
+    font-family: 'Crimson Pro';
+}
+
 .red-eddie-icon {
+    background-color: #f2edea;
     position: absolute;
     top: 24px;
     left: 34px;
@@ -75,14 +43,14 @@ h2 span {
 .nav_bar a {
     background-color: #3D0A08;
     color: #f2edea;
-    font-size: 1.25em;
+    font-size: 1em;
     text-decoration: none;
 }
 
 .nav_bar a:hover {
     background-color: #A58570;
     color: #3D0A08;
-    font-size: 1.25em;
+    font-size: 1em;
     padding: 5px;
     text-decoration: underline;
     border-radius: 8px;
@@ -103,8 +71,55 @@ h2 span {
     color: #f2edea;
     display: flex;
     align-self: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
+
+.intro-eddie {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3D0A08;
+    color: #f2edea;
+}
+
+.hi-eddie {
+    font-size: 3rem;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 20px;
+    background-color: #3D0A08;
+    color: #f2edea;
+    margin: 0 auto;
+    flex: 1;
+    text-align: right;
+}
+
+.ortho-bot {
+    font-size: 1.5em;
+    background-color: #3D0A08;
+    color: #f2edea;
+    flex: 1;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+h2, .ortho {
+    font-size: 1em;
+    background-color: #3D0A08;
+    color: #f2edea;
+}
+
+div.lines-eddie p,
+div.lines-eddie aside {
+    font-size: 1.5em;
+    text-align: center;
+    color: #3D0A08;
+    margin-top: 15px;
+    line-height: 15px;
+}
+
+.red-eddie {}
 
 footer {
     text-align: center;
