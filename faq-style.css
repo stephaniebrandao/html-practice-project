@@ -6,26 +6,29 @@
 
 .ortho-faq {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 33% 33% 32%;
     column-gap: 10px;
+}
+
+dl {
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 dt {
     font-family: Montserrat;
     font-size: 1.25em;
-    margin: 10px 70px;
+    margin: 10px 120px;
 }
 
 dd {
     font-family: 'Crimson Pro';
     font-size: 1.2em;
-    margin: 10px 80px;
+    margin: 10px 130px;
     text-align: justify;
     line-height: 30px;
 }
 
-/*.red-eddie-div {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}*/
+.red-eddie-div {
+    display: grid;
+}
