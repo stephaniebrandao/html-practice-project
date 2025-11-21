@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORTHObot</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-how-it-works.css">
+    <link rel="stylesheet" href="login-style.css">
+    <script src="https://kit.fontawesome.com/e35a5c2fc6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./red-eddie-icon.png" alt="AI helper Eddie. The head of a bot with tiny glasses and a bow tie." width="50px" height="50px" class="red-eddie-icon"></a>
+        <nav class="nav_bar title_mont nav_text">    
+            <p><a href="./how-it-works.html" target="_blank">How It Works</a></p>
+            <p><a href="./plans-pricing.html" target="_blank">Plans & Pricing</a></p>
+            <p><a href="./faq.html" target="_blank">FAQ</a></p>
+            <p><a href="./login.html">Login / Sign Up</a></p>
+            <!--<p><a href="#">Dashboard</a></p>-->
+            <p><a href="./contact.html" target="_blank">Contact / Support</a></p>
+            <p><a href="./about-eddie.html" target="_blank">About Eddie</a></p>
+            <p><a href="./updates.html" target="_blank">Blog / Updates</a></p>
+            <p><a href="./try-eddie.html" target="_blank">Try Eddie</a></p>
+        </nav>
+        <section>
+            <nav class="change_lang">
+                <i class="fa-solid fa-globe globe_lang"></i>
+                <select name="language" id="language">
+                    <option value="">Select...</option>
+                    <option value="portuguese">Portuguese</option>
+                    <option value="english">English</option>
+                    <option value="french">French</option>
+                </select>
+            </nav>
+        </section>
+        <div class="intro-eddie">
+            <h1 class="hi-eddie title_mont">Hi! I'm Eddie —</h1>
+            <h2 class="ortho-bot title_mont">the <span class="ortho">ORTHO</span>bot!</h2>
+        </div>
+    </header>
+    <main>
+        <h3 class="title_mont ortho-assist">Access Your Eddie Account</h3>
+        <p class="text_crim ortho-text">Log in to continue managing cases, or sign up to start your free trial today.</p>
+
+        <section class="ortho-form">
+            <div class="signin-form">
+                <h3 class="title_mont">Sign In:</h3>
+                <form class="text_crim" action="post">
+                    <label for="email">E-mail:</label><br>
+                    <input type="text">
+                    <br><br>
+
+                    <label for="password">Password:</label><br>
+                    <input type="password" name="password" id="password" minlength="8" maxlength="20" size="20" pattern="[0-9a-zA-Z]" required>
+                    <br><br>
+
+                    <button class="signin-btn" type="submit">Sign In</button>
+                </form>
+            </div>
+            
+            <div class="signup-form">
+                <h3 class="title_mont">Sign Up:</h3>
+                <form class="text_crim" action="post">
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" required>
+                    <br><br>
+
+                    <label for="email">E-mail:</label><br>
+                    <input type="text" id="email" name="email" required>
+                    <br><br>
+
+                    <label for="password">Password (8 characters minimum):</label><br>
+                    <input type="password" id="password" name="password" minlength="8" maxlength="20" size="20" pattern= "[0-9a-zA-Z]" required>
+                    <br><br>
+
+                    <button class="signup-btn" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="title_mont">
+        <p>Made with love &copy; 2025. All rights reserved.</p>
+    </footer>
+</body>
+</html>

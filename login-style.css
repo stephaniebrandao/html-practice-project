@@ -1,0 +1,26 @@
+.ortho-form {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+}
+
+.signup-form, .signin-form {
+    display: block;
+    
+    font-size: 1.25em;
+    margin: 40px auto;
+}
+
+.signin-form {
+    grid-column: 2 / 3;
+}
+
+.signup-form {
+    grid-column: 3 / 4;
+}
+
+.signup-btn, .signin-btn {
+    background-color: #3D0A08;
+    color: #f2edea;
+    border-radius: 8px;
+}
